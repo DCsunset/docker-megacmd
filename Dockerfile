@@ -10,4 +10,5 @@ RUN git clone --depth 1 https://github.com/meganz/MEGAcmd.git \
 	&& cd MEGAcmd \
 	&& git submodule update --init --recursive --depth 1 \
 	&& sh autogen.sh && ./configure && make && make install \
-	&& cd / && rm -rf MEGAcmd
+	&& cd / && rm -rf MEGAcmd \
+	&& apt autoremove -y git build-essential
