@@ -2,6 +2,8 @@
 
 Docker image for [MEGAcmd](https://github.com/meganz/MEGAcmd)
 
+This image builds MAGAcmd from source following the instructions in the original repo.
+
 ## Usage
 
 ```sh
